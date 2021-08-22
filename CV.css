@@ -3,6 +3,15 @@
     --darkgreen: #357078;
     --graygreen: #455656;
 }
+@keyframes back {
+    from {
+        background-image: url(cvpic.jpg)
+    }
+
+    to {
+        background-color: lightskyblue
+    }
+}
 
 .grid-container {
     display: grid;
